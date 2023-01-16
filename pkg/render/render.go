@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/chizidotdev/bookings/apps/api/pkg/config"
-	"github.com/chizidotdev/bookings/apps/api/pkg/models"
+	"github.com/chizidotdev/bookings/pkg/config"
+	"github.com/chizidotdev/bookings/pkg/models"
 )
 
 var functions = template.FuncMap{}

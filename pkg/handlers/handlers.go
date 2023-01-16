@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/chizidotdev/bookings/apps/api/pkg/config"
-	"github.com/chizidotdev/bookings/apps/api/pkg/models"
-	"github.com/chizidotdev/bookings/apps/api/pkg/render"
+	"github.com/chizidotdev/bookings/pkg/config"
+	"github.com/chizidotdev/bookings/pkg/models"
+	"github.com/chizidotdev/bookings/pkg/render"
 )
 
 var Repo *Repository
